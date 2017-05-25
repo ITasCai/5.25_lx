@@ -19,6 +19,7 @@ namespace _5._25_lx
             Console.WriteLine("{0},{1},{2},",bird.GetShow(),bird.BirdName,bird.Sex);
 
 
+
             Console.ReadKey();
         }
     }
