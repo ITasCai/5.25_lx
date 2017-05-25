@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _5._25_lx
 {
-    class Bird : Animal,Ifly
+    class Bird : Animal,IShow
     {
 
         public Bird() {
@@ -46,6 +46,11 @@ namespace _5._25_lx
         }
 
         public void Land()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void ShoCountZ()
         {
             throw new NotImplementedException();
         }

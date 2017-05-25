@@ -1,0 +1,14 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace _5._25_lx
+{
+    interface Inumber
+    {
+        int x { get; set; }
+        void ShowInfo();
+    }
+}
