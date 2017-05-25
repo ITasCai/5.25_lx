@@ -16,7 +16,7 @@ namespace _5._25_lx
             Bird bird = new Bird("鸟类","黄色");
             bird.BirdName = "黄鹂鸟";
             bird.Sex = "母";
-            Console.WriteLine("{0},{1},{2},",bird.GetShow(),bird.BirdName,bird.Sex);
+            Console.WriteLine("{0},{1},{2},{3}",bird.GetShow(),bird.BirdName,bird.Sex,bird.Color);
 
 
 
